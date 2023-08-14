@@ -1,0 +1,160 @@
+
+.body{
+  background-color: #E9EDC9;
+}
+/* for toolbar */
+.modal_addnews{
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+.newsadd-icon{
+  background-color: #E9EDC9;
+  margin-right: 5%;
+  border-radius: 50%;
+}
+.newsadd-icon .add-icon{
+  font-size: 30px;
+  color: #403415;
+}
+
+
+
+/* This is for the add button modal  */
+#newsadd-modal {
+  --color:#332a0a;
+  --width: 350px;
+  --min-width: 200px;
+  --height: 540px;
+  --border-radius: 6px;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+#newsadd-modal h1 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#newsadd-modal .modal_titletextbox{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+    
+}
+#newsadd-modal .modal_contenttextbox{
+  padding-top: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100px;
+}
+#newsadd-modal .modaldrop_pic{
+  margin: 5%;
+  height: 100%;
+  border-style: dashed;
+  border-width: 2;
+  border-radius: 2;
+  border-color: #eeeeee;
+  color: '#bdbdbd';
+  transition: 'border .24s ease-in-out';
+  text-align: center;
+}
+#newsadd-modal .modaldrop_pic .preview-image {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+
+/* Buttons for addnews modal */
+.modal_addnewsbtn{
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+.modal_addnewsbtn .modaldis_btn{
+  padding: 10px;
+  display: block;
+  color: #ffffff;
+  background-color: #e75f5f;
+  width: 40%;
+  border-radius: 25px;
+  text-align: center;
+}
+.modal_addnewsbtn .modaladd_btn{
+  padding: 10px;
+  display: block;
+  color: #ffffff;
+  background-color: #79bf57;
+  width: 40%;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+
+
+
+
+/* This is for the Manage News body style */
+.newstitles{
+  padding-left: 2%;
+}
+.newscard_content{
+  padding-left: 2%;
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card_btns .edit_btn{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #b59d58;
+  width: 60px;
+  border-radius: 5px;
+}
+.card_btns .del_btn{
+  margin: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #953d3d;
+  width: 60px;
+  border-radius: 5px;
+}
+
+
+@media screen and (min-width: 500px) {
+  #newsadd-modal {
+    --width: 500px;
+    --height: 600px;
+  }
+  #newsadd-modal .modal_titletextbox{
+    max-width: 500px;
+      
+  }
+  #newsadd-modal .modal_contenttextbox{
+    height: 150px;
+
+  }
+  .newstitles{
+    padding-left: 4%;
+  }
+  .newscard_content{
+    padding-left: 4%;
+  }
+  
+  .card_btns .edit_btn{
+    width: 80px;
+    height: 40px;
+  }
+  .card_btns .del_btn{
+    width: 80px;
+    height: 40px;
+  }
+}

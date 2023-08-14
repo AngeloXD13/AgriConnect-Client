@@ -1,0 +1,7 @@
+{
+  "name": "AgriConnect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

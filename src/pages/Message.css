@@ -1,0 +1,11 @@
+
+.mess_body{
+    background: linear-gradient(#403415, #E9EDC9); 
+    height: 100%;
+}
+.message_list{
+    background: #beb2b2;
+    color: #fff;
+    border-width: 2px;
+    border-radius: 20px;
+}

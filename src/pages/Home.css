@@ -1,0 +1,316 @@
+ion-toolbar {
+  --background: #403415;
+  --color: #E9EDC9;
+}
+ion-fab-button{
+  --background: #FFBF00;
+}
+.notification-icon{
+margin-right: 15px;
+width: 30px;
+height: 30px;
+
+}
+
+/* Main color
+  Dark : #6b551d
+  Light #E9EDC9:
+
+*/
+.landingpageheader {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+}
+
+.landingpageheaderbg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url("/homepics/1st.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.landingpageheader .agricultureoffice {
+  display: flex;
+  /* width: 360px; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: stretch;
+  display: flex;
+  z-index: 2;
+}
+
+.landingpageheader .agricultureoffice .titlecontainer {
+  position: absolute;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  z-index: 3;
+}
+.landingpageheader .agricultureoffice .titlecontainer .title{
+  color: #332a0a;
+  font-size: 10vmin;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.landingpageheader .agricultureoffice .titlecontainer .home_subtitle{
+  color: #fff;
+  text-shadow: 3px 2px 3px black;
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 130%;
+  text-align: center;
+  font-style: italic;
+  margin-right: 10%;
+}
+
+.landingpageheader .agricultureoffice .imgContainer {
+  width: 130%;
+  max-height: 700px;
+  /* height: 430px; */
+  flex-shrink: 0;
+  align-self: flex-start;
+
+  -webkit-filter: drop-shadow(3px 4px 5px rgba(0, 0, 0, 0.75));
+  /* -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+    -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+    -o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.75));
+ 
+     */
+}
+.landingpageheader .agricultureoffice .imgContainer .Image2 {
+  height: 100%;
+  /* width: 100%; */
+  /* max-height: 400px; */
+  object-fit: fill;
+  -webkit-mask-image: url("/agribgmask.svg");
+  mask-image: url("/agribgmask.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 85%;
+  mask-size: 85%;
+}
+
+.landingpageheader .batangasseal {
+  /* width: 360px; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: stretch;
+  display: flex;
+  z-index: 1;
+}
+
+.landingpageheader .batangasseal .imgContainer {
+  width: 70%;
+  max-width: 500px;
+  /* height: 430px; */
+  flex-shrink: 0;
+  align-self: flex-end;
+
+  -webkit-filter: drop-shadow(3px 4px 5px rgba(0, 0, 0, 0.75));
+  /* -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.75));
+
+   */
+}
+
+.landingpageheader .batangasseal .imgContainer .Image2 {
+  height: 80%;
+  /* width: 100%; */
+  /* max-height: 400px; */
+  object-fit: fill;
+  -webkit-mask-image: url("/agribgmask2.svg");
+  mask-image: url("/agribgmask2.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+}
+
+.landingpageheader .batangasseal .batangassealimage {
+  width: 30%;
+  max-width: 200px;
+  position: absolute;
+  align-self: flex-end;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 15%;
+}
+
+
+/* Style for Video Section of Homepage */
+.videoSection {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  max-height: 800vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%; 
+  background: linear-gradient(to top,#292817,25%, #E9EDC9); ;
+}
+
+.videoSection .vidtitle{
+  margin-top: 0;
+  padding-top: 0;
+  color: #332a0a;
+  font-size: 30px;
+  font-family:'Verdana', sans-serif;
+  font-weight: 700;
+}
+
+.videoSection .vidcon{
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 16px;
+  color: #332a0a;
+  font-family: "Poppins";
+  text-align: justify;
+}
+.videoSection .featuredvideo {
+  width: 100%;
+  height: 30vh;
+  align-self: center;
+}
+
+/* style for program section */
+.programSection {
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  padding: 10%;
+  background-image: url("/homepics/3rd.png");
+  background-position: center; /* Center the image 
+  background-repeat: no-repeat; /* Do not repeat the image 
+  background-size: cover; /* Resize the background image to cover the entire container 
+  z-index: -1; */
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  padding-top:8% ;
+  background-color:#292817
+  ;
+  /* overflow: hidden; */
+
+}
+
+.programSection .progtitle {
+  color: #d5d8c7 ;
+  font-size: 25px;
+  font-family:'Verdana', sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+}
+.programSection .prog_description{
+  color: #d5d8c7 ;
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 1352px) {
+  .landingpageheader .agricultureoffice .title {
+    line-height: 150%;
+  }
+
+  .landingpageheader {
+    display: flex;
+    justify-content: space-between;
+    height: 110%;
+    min-height: 500px;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+  .landingpageheaderbg{
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url("/homepics/1st.png");
+    background-position: center; /* Center the image
+    background-repeat: no-repeat; /* Do not repeat the image 
+    background-size: cover; /* Resize the background image to cover the entire container 
+    z-index: -1;*/ 
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    /* overflow: hidden; */
+    background-color: #E9EDC9;
+  }
+
+  .landingpageheader .agricultureoffice .titlecontainer .home_subtitle{
+    font-family:'Tahoma',Verdana, sans-serif;
+    color: #332a0a;
+    text-shadow: 3px 2px 3px #E9EDC9;
+    text-align: left;
+    font-size: 25px;
+    margin-right:50% ;
+  }
+
+  .landingpageheader .agricultureoffice .imgContainer {
+    /* height:300%;
+    width: 150%; */
+
+    -webkit-filter: drop-shadow(15px 15px 5px rgba(0, 0, 0, 0.75));
+  }
+
+  .landingpageheader .agricultureoffice .imgContainer .Image2 {
+    height: 120%;
+    width: 150%;
+  }
+
+  .landingpageheader .batangasseal {
+    width: 360px;
+    flex-direction: column;
+    justify-content: center;
+
+    align-self: flex-start;
+    /* position: absolute; */
+  }
+
+  .landingpageheader .batangasseal .imgContainer {
+    height: 80%;
+    width: 150%;
+    /* max-height: 400px; */
+    align-self: flex-end;
+    display: flex;
+    -webkit-filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
+  }
+
+  .landingpageheader .batangasseal .batangassealimage {
+    width: 15%;
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+  }
+  .videoSection .featuredvideo {
+    width: 100%;
+    height: 70vh;
+    align-self: center;
+  }
+  .programSection {
+    height: 100%;
+  }
+}

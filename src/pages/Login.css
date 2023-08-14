@@ -1,0 +1,377 @@
+
+ion-button {
+    --background: #403415;
+    --background-hover: #E9EDC9;
+    --background-activated: #E9EDC9;
+    --background-focused: #E9EDC9;
+  
+    --color: #E9EDC9;
+    --border-radius: 20px;
+    --border-color: #403415;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: #E9EDC9;
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
+
+/* ito yung sa pinakabackground*/
+.loginsection{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    background-image: url("/officebg.png");
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+/* ito ung transparent na bg */
+.logincontainer{
+    width: 100%;
+    align-items: center;
+    background-color: #403415;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    opacity: 90%;
+}
+
+.logincard{
+    border-radius: 20px;
+    padding: 10%;
+    margin-bottom: 10%;
+    width: 300px;
+    height: 550px;
+    background-color: #E9EDC9;
+    justify-content: center;
+    color: #403415;
+}
+/* for logo */
+.logincard .loginlogo{
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+}
+
+.logincard .applogopic {
+    width: 75px;
+    height: 75px;
+    -webkit-filter: drop-shadow(1px 5px 2px #403415);
+    
+}
+
+/* for "Login your account" */
+.logincard .loginwelcometext{
+    font-size: 24px;
+    text-align: center;
+}
+
+/* for note */
+.logincard .pagbati_div{
+    text-align: justify;
+    margin-top: 0%;
+}
+.logincard .pagbati{
+    color: #6b6c41;
+    font-size: 15px;
+    font-style: italic;
+}
+.logincard .userinputs{ 
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+.logincard .login_btn{
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logincard .login_btn .loginbutton {
+    border-radius: 20px;
+    background-color: #403415;
+    font-size: 16px;
+    padding: 5%;
+    width: 400px;
+}
+
+/* for short description */
+.login_about{
+    height: 550px;
+    margin-top: 10%;
+    text-align: center;
+}
+.login_about .wlcm{
+    background-color: #6b6c41;
+    margin: 0%;
+    padding: 5%;
+    font-size: 16px;
+}
+.login_about .offname_sec{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.login_about .offname_sec h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_about .offname_sec h2{
+    margin-top: 2%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.loc_social{
+    padding-top: 10%;
+    margin: 0%;
+}
+.loc_social .loc{
+    padding-bottom: 5%;
+}
+.loc_social .loc .vst{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.loc_social .loc .login_add{
+    margin-top: 2%;
+    padding: 0%;
+    font-size: 17px;
+}
+.loc_social .logostyle{
+    font-size: 30px;
+}
+
+.loc_social .social{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: #6b6c41;
+    margin: 0%;
+}
+.loc_social .social .cnnct{
+    margin: 0%;
+    padding: 0%;
+}
+.loc_social .social .login_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+/* for bigger monitor */
+@media screen and (min-width: 700px){
+    .loginsection{
+        display: flex;
+        justify-content: center;
+    }
+    /* ito ung transparent na bg */
+    .logincontainer{
+        max-width: 1000px;
+        display: flex;
+        flex-direction: row;
+        background-color: #403415;
+        margin: 5%;
+        border-radius: 25px;
+    }
+    .logincard{
+        padding: 5%;
+        margin: 2%;
+        width: 400px;
+    }
+    
+    /* for logo */
+    .logincard .loginlogo{
+        align-self: center; 
+    }
+    
+    .logincard .loginlogo .applogopic {
+        width: 95px;
+        height: 95px;
+        -webkit-filter: drop-shadow(1px 5px 2px #403415);
+        
+    }
+    
+    /* for "Welcome to AgriConnect" */
+    .logincard .loginwelcometext{
+        font-size: 90px;
+    }
+    
+    /* for paalala */
+    .logincard .pagbati_div{
+        text-align: justify;
+        margin-bottom: 0%;
+        color: #6b6c41;
+        font-size: 18px;
+        
+    }
+    .logincard .userinputs{ 
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        font-size: 18px;
+        align-self: center;
+    
+    }
+
+
+
+
+
+
+    
+/* for short description */
+.login_about{
+    text-align: left;
+    min-width: 100px;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.login_about .wlcm{
+    margin: 0%;
+    font-size: 20px;
+}
+.login_about .offname_sec{
+    letter-spacing: 3px;
+    text-align: left;
+    font-size: 60px;
+}
+
+.login_about .offname_sec h1{
+    letter-spacing: 3px;
+    text-align: left;
+    font-size: 60px;
+}
+
+.login_about .offname_sec h2{
+    text-align: left;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-style: italic;
+}
+.login_about .offname_sec h2 i{
+    font-size: 18px;
+}
+
+
+.loc_social{
+    margin-top: 4%;
+}
+.loc_social .loc{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.loc_social .loc .vst{
+    text-align: left;
+    padding: 0%;
+    margin: 0%;
+}
+.loc_social .loc .login_add{
+    margin-top: 0%;
+    padding: 0%;
+    font-size: 17px;
+}
+.loc_social .logostyle{
+    font-size: 30px;
+}
+
+.loc_social .social{
+    margin: 0%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.loc_social .social .cnnct{
+    margin:0%;
+    padding: 0%;
+}
+.loc_social .social .login_social{
+    
+    margin: 0%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.loc_social .social .login_social .logostyle{
+    margin-left: 5%;
+}
+
+    /* for short description */
+
+    /* .login_about{
+       
+    }
+    .login_about .wlcm{
+        
+    }
+    .login_about .offname_sec{
+        
+    }
+    .login_about .offname_sec h1{
+        
+    }
+    .login_about .offname_sec h2{
+        
+    }
+    
+    
+    .loc_social{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .loc_social .vst{
+        padding: 0%;
+        margin: 0%;
+        font-size: 18px;
+    } */
+
+    /* .login_about_loc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .login_about_loc .locstyle{
+        font-size: 50px;
+        color: #ffffff;
+    } 
+    .login_about_loc .login_add{
+        font-size: 18px;
+    }
+    .loginpic_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;;
+    }
+    .logpic{
+        width: 300px;
+        height: 300px;
+    }
+     */
+    /* .login_about .login_aboutdesc{
+        font-size: 18px;
+    } */
+
+}

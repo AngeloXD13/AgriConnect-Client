@@ -1,0 +1,121 @@
+/* Modal Style */
+.profilesection{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.profilesection .mess_headprofile{
+    margin-top:5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.profilesection .mess_title{
+    font-size: 16px;
+    padding-bottom: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.profilesection .mess_note{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color: #917d37;
+}
+.mess_reciever{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.mess_sender{
+    display: flex;
+    flex-direction: row;
+}
+.mess_avatar{
+    margin: 10px;
+    padding: 0%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.mess_textr{
+    width: 100%;
+    padding: 3%;
+    margin-right: 30%;
+    background-color: #f1e0b7;
+    border-radius: 5px;
+}
+.mess_texts{
+    width: 100%;
+    padding: 3%;
+    margin-left: 30%;
+    background-color: #f1e0b7;
+    border-radius: 5px;
+}
+.textbox_mess{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.textbox_mess .textmess{
+    font-size: 14px;
+    color: #403415;
+}
+.textbox_mess .sendicon{
+    background-color: #ffffff;
+    color: #403415;
+    font-size: 20px;
+    padding: 15px;
+    width: 10px;
+}
+
+
+
+/* Modal Design */
+ion-modal {
+    --height: auto;
+}
+.block {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9EDC9;
+}
+
+@media screen and (min-width: 500px) {
+
+    .block {
+        padding: 5%;
+        display: flex;
+        background-color: #E9EDC9;
+    }
+
+    .profilesection .mess_headprofile{
+        margin-top:5%;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .profilesection .mess_title{
+        font-size: 16px;
+        padding-bottom: 0%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .profilesection .mess_note{
+        margin-top: 0%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        text-align: center;
+        font-size: 12px;
+        font-style: italic;
+        color: #917d37;
+    }
+}

@@ -1,0 +1,107 @@
+.newscontent {
+    padding-top: 2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.newscontent .title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.newscontent .authorcontainer{
+    align-self: center;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    line-height: 0;
+    text-align: center;
+}
+.newscontent .authorcontainer .authorname{
+    margin-top: 0;
+}
+.newscontent .authorcontainer .dateposted{
+    margin-top: 0;
+}
+.newscontent .briefdescription{
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.whoavail{
+    font-style: italic;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+.req_need{
+    font-style: italic;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+.steps_title{
+    text-align: center;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    color:#403415 ;
+}
+.steps_no{
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #403415;
+    color: #E9EDC9;
+}
+.step_desc{
+    color: #403415;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+.step_details{
+    font-style: italic;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+.clickapp{
+
+    display: flex;
+    justify-content: center;
+}
+.clickapp .clicktoapply{
+    margin: 5%;
+    color: #E9EDC9;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #403415;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.newscontent .division{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(255, 63, 82);
+}
+
+
+
+@media screen and (min-width: 755px) {
+    .newscontent .briefdescription{
+        font-size: 16px;
+
+    }
+}
